@@ -24,7 +24,7 @@
 5. Servir backend:
    - Apache -> apuntar DocumentRoot a `public/`
    - o PHP built-in: `php -S 127.0.0.1:8000 -t public`
-6. Frontend: abrir `frontend/index.html` (si está en mismo host, asegurarse de que el backend esté en la misma origin).
+6. Frontend: abrir `frontend/index.html` (si está en el mismo host, asegurarse de que el backend esté en la misma origin).
 
 ## Endpoints
 - `GET /api/productos?search=&sort=&dir=&page=&pageSize=`
