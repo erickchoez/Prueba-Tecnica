@@ -1,0 +1,24 @@
+### Listar productos
+GET http://localhost:8000/api/productos
+
+### Crear producto
+POST http://localhost:8000/api/productos
+Content-Type: application/json
+
+{"sku":"SKU-NEW","nombre":"Nuevo","precio":10.00,"stock":5}
+
+### Crear pedido
+POST http://localhost:8000/api/pedidos
+Content-Type: application/json
+
+{
+  "items":[
+    {"producto_id":1,"cantidad":2,"precio_unitario":59.90}
+  ]
+}
+
+### Ver pedidos
+GET http://localhost:8000/api/pedidos
+
+### Ver pedido por id
+GET http://localhost:8000/api/pedidos/1
