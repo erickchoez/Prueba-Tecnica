@@ -2,8 +2,7 @@
 
 ## Requisitos
 - PHP 8.1+, Composer
-- MySQL 8.x
-- Servidor web (Apache con mod_rewrite o PHP built-in)
+- MySQL 8
 
 ## Instalación
 1. Clonar repo y entrar al directorio.
